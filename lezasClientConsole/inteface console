@@ -1,0 +1,68 @@
++*************************************************************+
+
+
++*************************************************************+
+
+Menu
+1)Liste les parties
+2)Créer une partie
+3)Joindre une partie
+4)Quiter
+
+Votre choix entre [x-y]:
+----------------------------------------------------------------
+
+Liste des parties
+______________________________________________________________
+      nom partie          |   nombre de joueurs               |
+__________________________|___________________________________|
+                          |
+        les oufs          |       3 / 5
+                          |
+                          |
+                          |
+                          |
+_______________________________________________________________
+   1)Retour menu
+   2)Créer une partie
+   3)Joindre une partie
+   4)Quiter
+
+  Votre choix entre [x-y]:
+-------------------------------------------------------------------
+
+
+Creer une Partie
+
+nom de la partie  :
+nb de joueur min 2 et max 10
+vous voulez changer nb de joueur min dans la partie : Oui / Non
+nb de joueurs min :
+Partie nom est créé attend de n-1 joueurs
+appuyer sur q si vous vouler quitter et supprimer la partie.
+
+
+nom en attente de n-1 joueurs  ........ (en boucle)
+
+
+
+
+ -----------------------------------------------------------------
+ Joindre une partie
+
+ ______________________________________________________________
+       nom partie          |   nombre de joueurs               |
+ __________________________|___________________________________|
+                           |
+         les oufs          |       3 / 5
+                           |
+                           |
+                           |
+                           |
+ ______________________________________________________________
+
+ nom de la partie à joindre :
+ appuyer sur q si vous vouler quitter la partie.
+
+
+ nom en attente de n-1 joueurs  ........ (en boucle)

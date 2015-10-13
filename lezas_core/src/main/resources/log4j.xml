@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE log4j:configuration 
+	SYSTEM "log4j.dtd">
+<log4j:configuration>
+	<appender name="app" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="./LOG/sixQuiPrend.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p %c{3} 
+	- %m%n" />
+		</layout>
+	</appender>
+	<appender name="dao" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="./LOG/sixQuiPrendDao.log" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p %c{3} 
+	- %m%n" />
+		</layout>
+	</appender>
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p %c{3} 
+	- %m%n" />
+		</layout>
+	</appender>
+	<logger name="com.naaf.sixQuiPrend" additivity="true">
+		<appender-ref ref="console" />
+	</logger>
+	<logger name="com.lezas.sixQuiPrend" additivity="true">
+		<appender-ref ref="app" />
+	</logger>
+	<logger name="com.lezas.entity" additivity="true">
+		<appender-ref ref="dao" />
+	</logger>
+	<logger name="com.lezas.dao" additivity="true">
+		<appender-ref ref="dao" />
+	</logger>
+	<root>
+		<priority value="infos" />
+		<appender-ref ref="console" />
+	</root>
+</log4j:configuration>
+	

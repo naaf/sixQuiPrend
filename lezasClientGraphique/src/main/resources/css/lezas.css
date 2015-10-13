@@ -1,0 +1,210 @@
+/*----------------------------------------------------------------------------------------------------------------------
+												Général
+----------------------------------------------------------------------------------------------------------------------*/
+
+.background-modal{
+	-fx-background-color:white;
+}
+
+.p1 {
+   -fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 );
+}
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0.0px;
+}
+
+.field-mandatory {
+  -fx-background-color: #E5F3FF;
+  -fx-border-color: #cacaca;
+  -fx-border-radius:3.0;
+}
+
+
+/* Button ------------------------------------------- */
+.btn_save {
+	-fx-background-radius: 3.0;
+	-fx-background-color: blue  ;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 3.0, 0.0 , 0.0 , 1.0 );
+}  
+
+.btn_default {
+	-fx-background-radius: 3.0;
+	-fx-background-color: #cacaca;
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 )
+}
+
+.btn_add {
+	-fx-background-radius: 3.0;
+	-fx-background-color: none;
+	-fx-text-fill: #7c7bad;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 );
+	-fx-underline:true;
+}
+
+/* widget inner ------------------------------------ */
+
+.bordered-titled-title {
+  -fx-background-color: white;
+  -fx-translate-y: 12.0;
+  -fx-translate-x: 16.0;
+  -fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 );
+}
+
+.bordered-titled-border {
+  -fx-content-display: top;
+  -fx-border-insets: 20.0 15.0 15.0 0.0;
+  -fx-background-color: white;
+  -fx-border-color: lightgray;
+  -fx-border-width: 1.0;
+  -fx-border-radius: 10.0;
+}
+
+
+.bordered-titled-content {
+  -fx-padding: 26.0 10.0 10.0 10.0;
+}
+
+
+
+.label_error{
+	-fx-text-fill: red;
+}
+
+
+.btn_print {
+	-fx-background-radius: 3.0;
+	-fx-background-color: rgb(255,204,11) ;
+	-fx-text-fill: #000000;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 );
+	-fx-alignment:center-Left;
+}
+
+.field_error{
+	-fx-border-color: red;
+}
+#pane_form{
+	-fx-alignment: baseline-right ;
+	-fx-halignment: left  ;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------
+												lezas
+----------------------------------------------------------------------------------------------------------------------*/
+.background{
+	-fx-background-color: rgb(200,168,189) ;
+}
+
+
+.separator_default{
+	-fx-background-color: #e79423;
+    -fx-background-radius: 1;
+}
+
+.plateau:hover {
+    -fx-border-color: #000000 ;
+}
+.image_view:hover{
+	-fx-border-color: #000000 ;
+	-fx-border-width: 3.0;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------
+												Prospect
+----------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------
+												logger
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------------------------------------------
+												modal
+----------------------------------------------------------------------------------------------------------------------*/
+
+
+.modal_action{
+	-fx-background-color: #f0eeee;
+    -fx-padding: 5.0px;
+    -fx-border-color: #cacaca;
+    -fx-border-width: 1.0 0.0 0.0 0.0;
+}
+
+.modal_background, .modal_info{
+  -fx-background-color: white;
+}
+
+.modal_title{
+ -fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 );
+}
+
+/*----------------------------------------------------------------------------------------------------------------------
+												popup
+----------------------------------------------------------------------------------------------------------------------*/
+
+.popup_action{
+	-fx-background-color: #f0eeee;
+    -fx-padding: 5.0px;
+    -fx-border-color: #cacaca;
+    -fx-border-width: 1.0 0.0 0.0 0.0;
+}
+
+.popup_background {
+
+    -fx-background-color: transparent, white;
+    -fx-background-insets: 0, 10;
+	-fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 10, 0.5 , 0 , 0 );
+}
+
+.popup_container{
+ 	-fx-background-color: white;
+}
+
+
+.popup_ok {
+	-fx-background-radius: 3.0;
+	-fx-background-color:
+        grey,
+        linear-gradient(#df3f3f, #a21a1a);
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 3.0, 0.0 , 0.0 , 1.0 );
+}  
+
+.popup_cancel {
+	-fx-background-radius: 3.0;
+	-fx-background-color: none;
+	-fx-text-fill: #7c7bad;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( three-pass-box , rgba(255.0,255.0,255.0,255.0) , 1.0, 0.0 , 0.0 , 1.0 );
+	-fx-underline:true;
+	-fx-alignment:center-Left;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------
+												ProgressBar
+----------------------------------------------------------------------------------------------------------------------*/
+
+.progressbar_background {
+	-fx-background-color: rgba(0.0,0.0,0.0,0.2);
+}
+
+
+
+
+
+
+
+
+
+

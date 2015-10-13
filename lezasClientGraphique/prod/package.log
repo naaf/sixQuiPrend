@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lezasClientGraphique 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sixClient ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.822 s
+[INFO] Finished at: 2015-08-14T17:57:04+02:00
+[INFO] Final Memory: 6M/245M
+[INFO] ------------------------------------------------------------------------
+Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-11T22:58:10+02:00)
+Maven home: C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.2.3
+Java version: 1.8.0_40, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_40\jre
+Default locale: fr_FR, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "dos"
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lezasClientGraphique 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sixClient ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 112 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sixClient ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to H:\WORKSPACE\lezasClientGraphique\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sixClient ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory H:\WORKSPACE\lezasClientGraphique\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sixClient ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to H:\WORKSPACE\lezasClientGraphique\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sixClient ---
+[INFO] Surefire report directory: H:\WORKSPACE\lezasClientGraphique\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running naaf.sixClient.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ sixClient ---
+[INFO] Building jar: H:\WORKSPACE\lezasClientGraphique\target\lezasClientGraphique.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (make-executable-jar-with-dependencies) @ sixClient ---
+[INFO] Building jar: H:\WORKSPACE\lezasClientGraphique\target\lezasClientGraphique-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.210 s
+[INFO] Finished at: 2015-08-14T17:57:20+02:00
+[INFO] Final Memory: 17M/245M
+[INFO] ------------------------------------------------------------------------

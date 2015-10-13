@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="labelAshraf" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="naaf.sixClient.controller.SixQuiPrendController">
+	<children>
+				<Label id="titreConnexion" alignment="TOP_CENTER" contentDisplay="CENTER" text="SixQuiPrend" textAlignment="CENTER" textFill="#416640" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+					<font>
+						<Font size="25.0" />
+					</font>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+				</Label>
+      <StackPane prefHeight="400.0" prefWidth="248.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+      						<GridPane fx:id="yt_connexionForm" alignment="CENTER">
+      							<columnConstraints>
+      								<ColumnConstraints hgrow="SOMETIMES" maxWidth="117.0" minWidth="10.0" prefWidth="98.0" />
+      								<ColumnConstraints hgrow="SOMETIMES" maxWidth="102.0" minWidth="40.0" prefWidth="202.0" />
+      							</columnConstraints>
+      							<rowConstraints>
+      								<RowConstraints maxHeight="51.0" minHeight="20.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      								<RowConstraints maxHeight="30.0" minHeight="9.0" prefHeight="50.0" vgrow="SOMETIMES" />
+      								<RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      								<RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      								<RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+      							</rowConstraints>
+      							<children>
+      								<Label fx:id="label_login" text="Login" GridPane.rowIndex="1">
+      									<font>
+      										<Font size="18.0" />
+      									</font>
+      								</Label>
+      								<Label fx:id="label_error" prefHeight="17.0" prefWidth="0.0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      								<Button fx:id="btn_connexion" mnemonicParsing="false" onAction="#onConnexion" prefHeight="39.0" prefWidth="165.0" text="Connexion" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.hgrow="SOMETIMES" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES">
+      									<font>
+      										<Font size="18.0" />
+      									</font>
+      								</Button>
+      								<TextField fx:id="field_login" prefHeight="25.0" prefWidth="132.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      							</children>
+      							<padding>
+      								<Insets left="50.0" />
+      							</padding>
+      						</GridPane>
+         </children>
+      </StackPane>
+	</children>
+</AnchorPane>

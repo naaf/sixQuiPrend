@@ -1,0 +1,13 @@
+/target/
+src/main/java/com/lezas/sixQuiPrend/Joueur.java
+src/main/java/com/lezas/sixQuiPrend/IHMGraphique.java
+src/main/java/com/lezas/sixQuiPrend/Humain.java
+src/main/java/com/lezas/sixQuiPrend/Carte.java
+src/main/java/com/lezas/sixQuiPrend/Partie.java
+.classpath
+src/main/java/com/lezas/sixQuiPrend/IHMGraphique.java
+src/main/java/com/lezas/sixQuiPrend/Humain.java
+src/main/java/com/lezas/sixQuiPrend/Joueurs.java
+src/main/java/com/lezas/sixQuiPrend/Ligne.java
+src/main/java/com/lezas/sixQuiPrend/Matrix.java
+.classpath

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="naaf.sixClient.controller.AccueilSixQuiPrendController">
+   <children>
+      <SplitPane dividerPositions="0.35" prefHeight="160.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="637.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                     <children>
+                        <Label fx:id="labelNomJoueur" prefHeight="28.0" prefWidth="135.0" />
+                     </children>
+                  </VBox>
+                  <TableView fx:id="tab_score" layoutX="22.0" layoutY="105.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.topAnchor="150.0">
+                    <columns>
+                      <TableColumn fx:id="s_col_partie" prefWidth="83.0" text="Partie" />
+                      <TableColumn fx:id="s_col_score" prefWidth="116.0" text="Score" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="378.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="bnt_creerPartie" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onCreePartie" text="creePartie" textAlignment="CENTER">
+                                 <HBox.margin>
+                                    <Insets right="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <TextField fx:id="TF_nomPartie" prefHeight="25.0" prefWidth="208.0" promptText="nom de la partie" />
+                              <Slider fx:id="nbJoueurSlider" max="10.0" min="2.0" showTickLabels="true" showTickMarks="true">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                              </Slider>
+                              <Label fx:id="nbJoueurLabel" alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="30.0" text="2" textAlignment="RIGHT">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </VBox.margin>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <TableView fx:id="tab_parties" layoutX="68.0" layoutY="75.0" prefHeight="200.0" prefWidth="259.0" AnchorPane.topAnchor="150.0">
+                    <columns>
+                      <TableColumn fx:id="p_col_partie" editable="false" prefWidth="84.0" text="Partie" />
+                      <TableColumn fx:id="p_col_nbJoueurs" minWidth="0.0" prefWidth="72.0" text="nbJoueurs" />
+                        <TableColumn prefWidth="100.0" text="Column X" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
